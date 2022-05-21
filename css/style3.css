@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 450px;
+    height: 600px;
+    background-color: white;
+    margin: 0 auto;
+    border: 5px solid green;
+    padding-left: 10px;
+}
+.main .heading{
+    height: 90px;
+    width: 100%;
+    padding-top: 35px;
+    font-size: 35px;
+}
+.main .box1{
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+.main .box2{
+    width: 96%;
+    font-size: 17px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border-bottom: 4px solid green;
+    background-color: lightblue;
+}
+.main .box3{
+    font-size: 17px;
+    line-height: 200%;
+}
+.main .box3 .wrong{
+    display: inline-block;
+    text-decoration: line-through;
+}
